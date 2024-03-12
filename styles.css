@@ -19,12 +19,17 @@ main {
 header {
     background-color: var(--dark-bg-color);
     width: 100%;
-    font-size: 24px;
     display: flex;
     justify-content: space-around;
     flex: 1;
     align-items: center;
     height: 15vh;
+}
+
+.logo {
+    font-size: 24px;
+    color: var(--text-color);
+    font-weight: 900;
 }
 
 .nav-links {
@@ -44,9 +49,9 @@ header {
     height: 40vh;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    padding: 1% 5% 6%;
+    padding: 1% 5% 4%;
 }
 
 .left {
@@ -71,7 +76,7 @@ button {
 
 .hero-header {  
     font-size: 48px;
-    font-weight: 900    ;
+    font-weight: 900;
     color: var(--text-color);
 }
 
@@ -89,3 +94,41 @@ button {
     align-items: center;
 }
 
+.information-section {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 60vh;
+}
+
+.information-figure {
+    display: flex;
+    flex-direction: row;
+    background-color: palevioletred;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.informations {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.information-header {
+    font-size: 36px;
+    color: var(--dark-bg-color);
+    font-weight: 900;
+    align-self: center;
+    padding: 1em 2em 2em;
+    background-color: cadetblue;
+}
+
+.information-image {
+    border: 8px solid var(--button-color);
+    width: 8em;
+    height: 8em;
+    flex: auto;
+    border-radius: 15px;
+}
