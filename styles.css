@@ -95,40 +95,47 @@ button {
 }
 
 .information-section {
-    background-color: gray;
+    /* background-color: gray; */
     display: flex;
     flex-direction: column;
-    flex: 1;
     height: 60vh;
 }
 
 .information-figure {
+    /* background-color: palevioletred; */
     display: flex;
-    flex-direction: row;
-    background-color: palevioletred;
     justify-content: space-evenly;
     text-align: center;
+    margin: 0 20em 0;
 }
 
 .informations {
     display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 160px;
+    height: 160px;
+}
+
+.informations > figcaption {
+    width: 250px;
+    word-wrap: break-word;
+    margin-top: 15px;
+    color: var(--dark-bg-color);
 }
 
 .information-header {
+    /* background-color: cadetblue;  */
     font-size: 36px;
     color: var(--dark-bg-color);
     font-weight: 900;
     align-self: center;
     padding: 1em 2em 2em;
-    background-color: cadetblue;
 }
 
 .information-image {
-    border: 8px solid var(--button-color);
-    width: 8em;
-    height: 8em;
-    flex: auto;
+    border: 5px solid var(--button-color);
+    width: inherit;
+    height: inherit;
     border-radius: 15px;
 }
