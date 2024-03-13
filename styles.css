@@ -104,22 +104,19 @@ button {
 .information-figure {
     /* background-color: palevioletred; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     text-align: center;
-    margin: 0 20em 0;
+    gap: 4em;
 }
 
 .informations {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
     width: 160px;
     height: 160px;
 }
 
 .informations > figcaption {
-    width: 250px;
-    word-wrap: break-word;
     margin-top: 15px;
     color: var(--dark-bg-color);
 }
