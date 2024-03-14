@@ -95,18 +95,18 @@ button {
 }
 
 .information-section {
-    /* background-color: gray; */
+    background-color: white;
     display: flex;
     flex-direction: column;
     height: 60vh;
+    align-items: center;
 }
 
 .information-figure {
     /* background-color: palevioletred; */
     display: flex;
-    justify-content: center;
     text-align: center;
-    gap: 4em;
+    gap: 3em;
 }
 
 .informations {
@@ -126,12 +126,11 @@ button {
     font-size: 36px;
     color: var(--dark-bg-color);
     font-weight: 900;
-    align-self: center;
     padding: 1em 2em 2em;
 }
 
 .information-image {
-    border: 5px solid var(--button-color);
+    border: 4px solid var(--button-color);
     width: inherit;
     height: inherit;
     border-radius: 15px;
