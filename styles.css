@@ -5,6 +5,8 @@
     --quotates-bg: #E5E7EB;
 }
 
+/* warning not responsive, may not display correctly on smaller screens */
+
 * {
     box-sizing: border-box;
     margin: 0;
